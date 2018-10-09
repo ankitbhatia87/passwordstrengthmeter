@@ -17,4 +17,4 @@
     - sequential **numbers**
     - sequential **letters**
 
-4. A View icon to show and hide the password
+4. A View icon to show and hide the password.
