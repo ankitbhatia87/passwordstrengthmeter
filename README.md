@@ -18,3 +18,5 @@
     - sequential **letters**
 
 4. A View icon to show and hide the password.
+
+5. It tells the error in the password.
