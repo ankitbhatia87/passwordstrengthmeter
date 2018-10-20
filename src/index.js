@@ -5,7 +5,15 @@ const initPwd = new PasswordStrength();
 
 document.addEventListener('DOMContentLoaded', () => {
     const passwordInput = document.getElementById('password');
-    passwordInput.addEventListener('keyup', () => {
-        initPwd.init();
+    passwordInput.addEventListener('keyup', function () {
+        initPwd.init(this.value);
     })
+
+    let setBarWidth = () => {
+        const passwordStrengthBar = document.getElementById('strengthBar');
+        let width = passwordStrengthBar.parentElement.parentElement.offsetWidth;
+        passwordStrengthBar.style.width = width + 'px';
+    }
+
+    setBarWidth();
 })

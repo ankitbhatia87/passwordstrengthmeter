@@ -31,13 +31,12 @@
 
 .strength-meter {
     display: block;
-    width: 100%;
+    width: 1%;
+    overflow: hidden;
     margin-top: 20px;
-    border: #ccc solid 1px;
 }
 .strength-bar {
     display: block;
     height: 20px;
-    width: 100%;
     background-image: linear-gradient(to right, #f00, #e9a400, #fffc00, #83e800, #267b00);
 }

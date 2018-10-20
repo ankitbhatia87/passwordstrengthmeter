@@ -8,7 +8,7 @@
     - Should contain **UPPERCASE** letter
     - Should contain **lowercase** letter
     - Should contain **Number**
-    - Should contain **Symbol** &, #, @, $, *, !, ^, %
+    - Should contain **Symbol** &, #, @, $, *, !, ^, %, -, _, |
 
 3. Password strength fluctuates on the basis of below parameters
     - only **letters**
